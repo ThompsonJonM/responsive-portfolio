@@ -6,6 +6,7 @@
 
 header {
 	font-family: arial;
+	position: relative;
 	width: 100%;
 	background-color: #ffffff;
 	border-style: solid;
@@ -117,28 +118,38 @@ p {
 
 /*Header Items*/
 
-#headerbar {
+header {
 	padding-bottom: 45px;
 	height: 99px;
 }
 
-#headername {
+.headertag {
 	float: left;
+	position: absolute;
+	width: 300px;
+	height: 97px;
 	margin-left: 15%;
-	margin-top: 0%;
-	padding: 36px;
 	color: #ffffff;
+	text-align: center;
 	background-color: #4aaaa5;
 
 }
 
-#headerlinks {
+.headerlinks {
 	float: right;
+	position: relative;
 	margin-right: 16%;
 	padding-top: 35px;
 	font-family: arial;
 	color: #cccccc;
 	word-spacing: 10px;
+}
+
+#headername {
+	color: #ffffff;
+	margin: 20px;
+	padding-left: 0px;
+	padding-top: 20px;
 }
 
 /*Content Boxes*/
@@ -316,3 +327,4 @@ p {
 	padding: 20px;
 	clear: both;
 }
+
