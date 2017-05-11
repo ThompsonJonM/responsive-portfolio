@@ -282,35 +282,7 @@ header {
 	padding-bottom: 2.5px;
 }
 
-#portfolio1 {
-	
-	padding: 20px;
-	height: 250px;
-	width: 375px;
-}
-
-#portfolio2 {
-	
-	padding: 20px;
-	height: 250px;
-	width: 375px;
-}
-
-#portfolio3 {
-	
-	padding: 20px;
-	height: 250px;
-	width: 375px;
-}
-
-#portfolio4 {
-	
-	padding: 20px;
-	height: 250px;
-	width: 375px;
-}
-
-#portfolio5 {
+.portfoliopic {
 	
 	padding: 20px;
 	height: 250px;
@@ -328,3 +300,78 @@ header {
 	clear: both;
 }
 
+@media screen and (max-width: 768px) {
+	
+	#portfoliotext {
+		width: 95%;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-right: 20px;
+		margin-left: 20px;
+		border-style: solid;
+		border-width: 1.5px;
+		border-color: #dddddd;
+		background-color: #ffffff;
+}
+
+	.headerlinks {
+		float: right;
+		margin-right: 20px;
+
+	}
+
+	.headertag {
+		float: left;
+		margin-left: 20px;
+	}
+
+	.imagecontainerleft {
+		float: left;
+		height: 250px;
+		width: 300px;
+		position: relative;
+		padding-top: 20px;
+		margin-left: 20px;
+}
+
+	.imagecontainerright {
+		float: right;
+		height: 250px;
+		width: 250px;
+		position: relative;
+		padding-top: 20px;
+		margin-right: 70px;
+}
+
+	.portfoliopic {
+	
+		padding: 0px;
+		height: 175px;
+		width: 300px;
+}
+
+	.tag {
+		position: absolute;
+		left: 0px;
+		bottom: 85px;
+		height: 60px;
+		width: 300px;
+		margin-bottom: -20px;
+		background-color: #4aaaa5;
+		text-align: center;
+}
+
+	.connect {
+		float: center;
+		width: 95%;
+		margin: 20px;
+		margin-right: 20px;
+		text-align: left;
+		padding-left: 20px;
+	}
+
+	#hr2 {
+		width: 95%;
+		margin-right: 30px;
+	}
+}
