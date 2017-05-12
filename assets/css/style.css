@@ -310,94 +310,73 @@ adding the reset after the stylesheet.
 This is certainly something to remember
 going forward*/
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 769px) and (max-width: 980px) {
 
-	header {
-		padding-bottom: 0px;
-		height: 0px;
-}
-
-	.headerlinks {
-		float: center;
-		width: 100%;
-		background-color: #ffffff;
-		margin-top: 95px;
-		margin-right: 0px !important;
-		padding-bottom: 30px;
-		text-align: center;
-
-	}
-
-	.headertag {
-		float: center;
-		width: 100%;
-		margin-left: 0px !important;
-		padding: 0px;
-	}
-
-	#aboutme {
-		margin-top: 20px;
-		margin-left: 15px !important;
+	#hr1 {
+		width: 90%;
 	}
 
 	#contacttext {
-		margin-top: 20px;
-		margin-left: 15px !important;
-	}
-
-	#portfoliotext {
-		margin-top: 15px;
-		margin-left: 15px !important;
-		height: 2100px !important;
-	}
-
-	.imagecontainerleft {
-		float: center;
-		height: 400px;
-		margin-bottom: 175px;
-	}
-
-	.imagecontainerright {
-		float: center;
-		height: 400px;
-		margin-right: 315px !important;
-		margin-bottom: 175px;
-	}
-
-	.portfoliopic {
-	width: 545px !important;
-	height: 350px !important;
-	}
-
-	.tag {
-		width: 545px !important;
-		bottom: -115px !important;
-	}
-
-	.connect {
-		margin-right: 15px !important;
-		height: 150px;
+		width: 41.5%;
 	}
 
 	#messagebox {
-		height: 200px !important;
+		height: 200px;
+	}
+
+	#aboutme {
+		width: 41.5%;
 	}
 
 	#selfimage {
-		width: 570px !important;
-		height: 400px !important;
-		padding-left: 15px;
-		padding-right: 0px;
-		padding-bottom: 10px;
+		width: 400px;
+		height: 325px;
+		margin-bottom: 15px;
 	}
-	
-	#gap2 {
+
+	p {
+		line-height: 2;
+	}
+
+	#portfoliotext {
+		width: 41.5%;
+		height: 1500px;
+	}
+
+	.connect {
+		float: right;
+		width: 25%;
+	}
+
+	.imagecontainerleft {
+		margin-left: 10px;
+		margin-bottom: 25px;
+		width: 390px;
+		margin-top: -30px; 
+	}
+
+	.imagecontainerright {
+		margin-right: 3px;
+		margin-bottom: 60px;
+		width: 390px;
+	}
+
+	.portfoliopic {
 		padding: 10px;
+		width: 385px;
+		height: 250px;
+	}
+
+	.tag {
+		position: relative;
+		top: 210px;
+		left: 10px;
+		width: 365px;
 	}
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
 	
 	#portfoliotext {
 		width: 95%;
@@ -508,68 +487,111 @@ going forward*/
 	}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 640px) {
 
-	#hr1 {
-		width: 90%;
+	header {
+		padding-bottom: 0px;
+		height: 0px;
+}
+
+	p {
+		line-height: 2;
+	}
+
+	.headerlinks {
+		float: center;
+		width: 100%;
+		background-color: #ffffff;
+		margin-top: 95px;
+		margin-right: 0px;
+		padding-bottom: 30px;
+		text-align: center;
+
+	}
+
+	.headertag {
+		float: center;
+		width: 100%;
+		margin-left: 0px;
+		padding: 0px;
+	}
+
+	#aboutme {
+		margin-top: 20px;
+		margin-left: 15px;
+		width: 95%;
 	}
 
 	#contacttext {
-		width: 41.5%;
+		margin-top: 20px;
+		margin-left: 15px;
+		width: 95%;
+	}
+
+	#portfoliotext {
+		margin-top: 15px;
+		margin-left: 15px;
+		height: 2350px;
+		width: 95%;
+	}
+
+	.imagecontainerleft {
+		top: -50px;
+		position: relative;
+		height: 450px;
+	}
+
+	.imagecontainerright {
+		position: relative;
+		height: 450px;
+		right: 230px;
+		top: -55px;
+	}
+
+	.portfoliopic {
+		width: 600px;
+		height: 450px;
+	}
+
+	.tag {
+		position: relative;
+		width: 560px;
+		bottom: -400px;
+		padding-top: 5px;
+	}
+
+	.connect {
+		text-align: left;
+		padding-left: 20px;
+		margin-top: 25px;
+		margin-right: 15px;
+		height: 150px;
+		width: 95%
 	}
 
 	#messagebox {
 		height: 200px;
 	}
 
-	#aboutme {
-		width: 41.5%;
-	}
-
 	#selfimage {
-		width: 400px;
-		height: 325px;
-		margin-bottom: 15px;
+		width: 580px;
+		height: 400px;
+		padding-left: 22.5px;
+		padding-right: 0px;
+		padding-bottom: 10px;
 	}
-
-	p {
-		line-height: 2;
-	}
-
-	#portfoliotext {
-		width: 41.5%;
-		height: 1500px;
-	}
-
-	.connect {
-		float: right;
-		width: 25%;
-	}
-
-	.imagecontainerleft {
-		margin-left: 10px;
-		margin-bottom: 25px;
-		width: 390px;
-		margin-top: -30px; 
-	}
-
-	.imagecontainerright {
-		margin-right: 3px;
-		margin-bottom: 60px;
-		width: 390px;
-	}
-
-	.portfoliopic {
+	
+	#gap2 {
 		padding: 10px;
-		width: 385px;
-		height: 250px;
 	}
 
-	.tag {
-		position: relative;
-		top: 210px;
-		left: 10px;
-		width: 365px;
+	#hr1 {
+		width: 92.5%;
+	}
+
+	#hr2 {
+		width: 95%;
+		margin-left: 0px;
 	}
 
 }
