@@ -304,7 +304,88 @@ header {
 
 @media screen and (max-width: 640px) {
 
+	header {
+		padding-bottom: 0px;
+		height: 0px;
+}
+
+	.headerlinks {
+		float: center;
+		width: 100%;
+		background-color: #ffffff;
+		margin-top: 95px;
+		margin-right: 0px !important;
+		padding-bottom: 30px;
+		text-align: center;
+
+	}
+
+	.headertag {
+		float: center;
+		width: 100%;
+		margin-left: 0px !important;
+		padding: 0px;
+	}
+
+	#aboutme {
+		margin-top: 20px;
+		margin-left: 15px !important;
+	}
+
+	#contacttext {
+		margin-top: 20px;
+		margin-left: 15px !important;
+	}
+
+	#portfoliotext {
+		margin-top: 15px;
+		margin-left: 15px !important;
+		height: 2100px !important;
+	}
+
+	.imagecontainerleft {
+		float: center;
+		height: 400px;
+		margin-bottom: 175px;
+	}
+
+	.imagecontainerright {
+		float: center;
+		height: 400px;
+		margin-right: 315px !important;
+		margin-bottom: 175px;
+	}
+
+	.portfoliopic {
+	width: 545px !important;
+	height: 350px !important;
+	}
+
+	.tag {
+		width: 545px !important;
+		bottom: -115px !important;
+	}
+
+	.connect {
+		margin-right: 15px !important;
+		height: 150px;
+	}
+
+	#messagebox {
+		height: 200px !important;
+	}
+
+	#selfimage {
+		width: 570px !important;
+		height: 400px !important;
+		padding-left: 15px;
+		padding-right: 0px;
+		padding-bottom: 10px;
+	}
 	
+	#gap2 {
+		padding: 10px;
+	}
 
 }
 
